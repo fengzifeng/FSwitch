@@ -13,6 +13,17 @@
 		370B4F611D08354D000D12FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 370B4F5F1D08354D000D12FF /* Main.storyboard */; };
 		370B4F631D08354D000D12FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 370B4F621D08354D000D12FF /* Assets.xcassets */; };
 		370B4F661D08354D000D12FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 370B4F641D08354D000D12FF /* LaunchScreen.storyboard */; };
+		370B4F701D08355E000D12FF /* SwitchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 370B4F6F1D08355E000D12FF /* SwitchView.m */; };
+		370B4F8B1D083693000D12FF /* NSDate+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 370B4F741D083693000D12FF /* NSDate+Common.m */; };
+		370B4F8C1D083693000D12FF /* NSObject+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 370B4F761D083693000D12FF /* NSObject+Common.m */; };
+		370B4F8D1D083693000D12FF /* NSString+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 370B4F781D083693000D12FF /* NSString+Common.m */; };
+		370B4F8E1D083693000D12FF /* NSString+Emoji.m in Sources */ = {isa = PBXBuildFile; fileRef = 370B4F7A1D083693000D12FF /* NSString+Emoji.m */; };
+		370B4F8F1D083693000D12FF /* UIButton+New.m in Sources */ = {isa = PBXBuildFile; fileRef = 370B4F7C1D083693000D12FF /* UIButton+New.m */; };
+		370B4F911D083693000D12FF /* UIImage+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 370B4F801D083693000D12FF /* UIImage+Common.m */; };
+		370B4F921D083693000D12FF /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 370B4F821D083693000D12FF /* UIImage+ImageEffects.m */; };
+		370B4F931D083693000D12FF /* UIView+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 370B4F841D083693000D12FF /* UIView+Addition.m */; };
+		370B4F941D083693000D12FF /* UIView+AutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 370B4F861D083693000D12FF /* UIView+AutoLayout.m */; };
+		370B4F951D083693000D12FF /* UIView+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 370B4F881D083693000D12FF /* UIView+Common.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +37,30 @@
 		370B4F621D08354D000D12FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		370B4F651D08354D000D12FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		370B4F671D08354D000D12FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		370B4F6E1D08355E000D12FF /* SwitchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwitchView.h; sourceTree = "<group>"; };
+		370B4F6F1D08355E000D12FF /* SwitchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwitchView.m; sourceTree = "<group>"; };
+		370B4F711D08362E000D12FF /* MacroToolHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacroToolHeader.h; sourceTree = "<group>"; };
+		370B4F731D083693000D12FF /* NSDate+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Common.h"; sourceTree = "<group>"; };
+		370B4F741D083693000D12FF /* NSDate+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Common.m"; sourceTree = "<group>"; };
+		370B4F751D083693000D12FF /* NSObject+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Common.h"; sourceTree = "<group>"; };
+		370B4F761D083693000D12FF /* NSObject+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Common.m"; sourceTree = "<group>"; };
+		370B4F771D083693000D12FF /* NSString+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Common.h"; sourceTree = "<group>"; };
+		370B4F781D083693000D12FF /* NSString+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Common.m"; sourceTree = "<group>"; };
+		370B4F791D083693000D12FF /* NSString+Emoji.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Emoji.h"; sourceTree = "<group>"; };
+		370B4F7A1D083693000D12FF /* NSString+Emoji.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Emoji.m"; sourceTree = "<group>"; };
+		370B4F7B1D083693000D12FF /* UIButton+New.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+New.h"; sourceTree = "<group>"; };
+		370B4F7C1D083693000D12FF /* UIButton+New.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+New.m"; sourceTree = "<group>"; };
+		370B4F7F1D083693000D12FF /* UIImage+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Common.h"; sourceTree = "<group>"; };
+		370B4F801D083693000D12FF /* UIImage+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Common.m"; sourceTree = "<group>"; };
+		370B4F811D083693000D12FF /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		370B4F821D083693000D12FF /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		370B4F831D083693000D12FF /* UIView+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Addition.h"; sourceTree = "<group>"; };
+		370B4F841D083693000D12FF /* UIView+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Addition.m"; sourceTree = "<group>"; };
+		370B4F851D083693000D12FF /* UIView+AutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AutoLayout.h"; sourceTree = "<group>"; };
+		370B4F861D083693000D12FF /* UIView+AutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AutoLayout.m"; sourceTree = "<group>"; };
+		370B4F871D083693000D12FF /* UIView+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Common.h"; sourceTree = "<group>"; };
+		370B4F881D083693000D12FF /* UIView+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Common.m"; sourceTree = "<group>"; };
+		370B4F971D08370F000D12FF /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +97,9 @@
 				370B4F5A1D08354D000D12FF /* AppDelegate.m */,
 				370B4F5C1D08354D000D12FF /* ViewController.h */,
 				370B4F5D1D08354D000D12FF /* ViewController.m */,
+				370B4F711D08362E000D12FF /* MacroToolHeader.h */,
+				370B4F721D083693000D12FF /* Category */,
+				370B4F6D1D08355E000D12FF /* SwitchView */,
 				370B4F5F1D08354D000D12FF /* Main.storyboard */,
 				370B4F621D08354D000D12FF /* Assets.xcassets */,
 				370B4F641D08354D000D12FF /* LaunchScreen.storyboard */,
@@ -75,8 +113,45 @@
 			isa = PBXGroup;
 			children = (
 				370B4F571D08354D000D12FF /* main.m */,
+				370B4F971D08370F000D12FF /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		370B4F6D1D08355E000D12FF /* SwitchView */ = {
+			isa = PBXGroup;
+			children = (
+				370B4F6E1D08355E000D12FF /* SwitchView.h */,
+				370B4F6F1D08355E000D12FF /* SwitchView.m */,
+			);
+			path = SwitchView;
+			sourceTree = "<group>";
+		};
+		370B4F721D083693000D12FF /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				370B4F731D083693000D12FF /* NSDate+Common.h */,
+				370B4F741D083693000D12FF /* NSDate+Common.m */,
+				370B4F751D083693000D12FF /* NSObject+Common.h */,
+				370B4F761D083693000D12FF /* NSObject+Common.m */,
+				370B4F771D083693000D12FF /* NSString+Common.h */,
+				370B4F781D083693000D12FF /* NSString+Common.m */,
+				370B4F791D083693000D12FF /* NSString+Emoji.h */,
+				370B4F7A1D083693000D12FF /* NSString+Emoji.m */,
+				370B4F7B1D083693000D12FF /* UIButton+New.h */,
+				370B4F7C1D083693000D12FF /* UIButton+New.m */,
+				370B4F7F1D083693000D12FF /* UIImage+Common.h */,
+				370B4F801D083693000D12FF /* UIImage+Common.m */,
+				370B4F811D083693000D12FF /* UIImage+ImageEffects.h */,
+				370B4F821D083693000D12FF /* UIImage+ImageEffects.m */,
+				370B4F831D083693000D12FF /* UIView+Addition.h */,
+				370B4F841D083693000D12FF /* UIView+Addition.m */,
+				370B4F851D083693000D12FF /* UIView+AutoLayout.h */,
+				370B4F861D083693000D12FF /* UIView+AutoLayout.m */,
+				370B4F871D083693000D12FF /* UIView+Common.h */,
+				370B4F881D083693000D12FF /* UIView+Common.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,8 +224,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				370B4F951D083693000D12FF /* UIView+Common.m in Sources */,
+				370B4F701D08355E000D12FF /* SwitchView.m in Sources */,
 				370B4F5E1D08354D000D12FF /* ViewController.m in Sources */,
+				370B4F931D083693000D12FF /* UIView+Addition.m in Sources */,
+				370B4F8E1D083693000D12FF /* NSString+Emoji.m in Sources */,
+				370B4F941D083693000D12FF /* UIView+AutoLayout.m in Sources */,
+				370B4F8F1D083693000D12FF /* UIButton+New.m in Sources */,
+				370B4F8D1D083693000D12FF /* NSString+Common.m in Sources */,
 				370B4F5B1D08354D000D12FF /* AppDelegate.m in Sources */,
+				370B4F8B1D083693000D12FF /* NSDate+Common.m in Sources */,
+				370B4F921D083693000D12FF /* UIImage+ImageEffects.m in Sources */,
+				370B4F8C1D083693000D12FF /* NSObject+Common.m in Sources */,
+				370B4F911D083693000D12FF /* UIImage+Common.m in Sources */,
 				370B4F581D08354D000D12FF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,7 +351,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/FSwitch/PrefixHeader.pch";
 				INFOPLIST_FILE = FSwitch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-8.com.FSwitch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -276,7 +364,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/FSwitch/PrefixHeader.pch";
 				INFOPLIST_FILE = FSwitch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-8.com.FSwitch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
