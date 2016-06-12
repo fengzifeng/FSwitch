@@ -140,16 +140,6 @@
     //接入外部效果
     _currentIndex = btn.tag-100;
     
-    if(_config.tapAnimation){
-        
-        //有动画，由call is scrollView 带动线条，改变颜色
-        
-    }else{
-        //没有动画，需要手动瞬移线条，改变颜色
-        [self changeItemColor:_currentIndex];
-        [self changeLine:_currentIndex];
-    }
-    
     [self changeScrollOfSet:_currentIndex];
     [self endMoveToIndex:_currentIndex];
 
@@ -184,9 +174,30 @@
     [UIView animateWithDuration:0.25 animations:^{
         _line.frame = rect;
         _line.center = CGPointMake(btn.center.x, center.y);
+    } completion:^(BOOL finished) {
+        if(_config.tapAnimation) [self shakeAnimationForView:_line];
     }];
 }
 
+- (void)shakeAnimationForView:(UIView *) view
+{
+    CALayer *viewLayer = view.layer;
+    CGPoint position = viewLayer.position;
+    
+    CGPoint x = CGPointMake(position.x + 10, position.y);
+    CGPoint y = CGPointMake(position.x - 10, position.y);
+    
+    CABasicAnimation *animation = [CABasicAnimation animationWithKeyPath:@"position"];
+    
+    [animation setTimingFunction:[CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionDefault]];
+    [animation setFromValue:[NSValue valueWithCGPoint:x]];
+    [animation setToValue:[NSValue valueWithCGPoint:y]];
+    [animation setAutoreverses:YES];
+    [animation setDuration:.04];
+    [animation setRepeatCount:1];
+    
+    [viewLayer addAnimation:animation forKey:nil];
+}
 
 //向上取整
 - (NSInteger)changeProgressToInteger:(NSInteger)x
