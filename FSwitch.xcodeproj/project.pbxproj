@@ -24,6 +24,7 @@
 		370B4F931D083693000D12FF /* UIView+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 370B4F841D083693000D12FF /* UIView+Addition.m */; };
 		370B4F941D083693000D12FF /* UIView+AutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 370B4F861D083693000D12FF /* UIView+AutoLayout.m */; };
 		370B4F951D083693000D12FF /* UIView+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 370B4F881D083693000D12FF /* UIView+Common.m */; };
+		9F1A12B2216EF86A00BD3494 /* swtich.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9F1A12B1216EF86A00BD3494 /* swtich.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,6 +62,7 @@
 		370B4F871D083693000D12FF /* UIView+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Common.h"; sourceTree = "<group>"; };
 		370B4F881D083693000D12FF /* UIView+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Common.m"; sourceTree = "<group>"; };
 		370B4F971D08370F000D12FF /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		9F1A12B1216EF86A00BD3494 /* swtich.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = swtich.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				370B4F5C1D08354D000D12FF /* ViewController.h */,
 				370B4F5D1D08354D000D12FF /* ViewController.m */,
 				370B4F711D08362E000D12FF /* MacroToolHeader.h */,
+				9F1A12B1216EF86A00BD3494 /* swtich.gif */,
 				370B4F721D083693000D12FF /* Category */,
 				370B4F6D1D08355E000D12FF /* SwitchView */,
 				370B4F5F1D08354D000D12FF /* Main.storyboard */,
@@ -211,6 +214,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F1A12B2216EF86A00BD3494 /* swtich.gif in Resources */,
 				370B4F661D08354D000D12FF /* LaunchScreen.storyboard in Resources */,
 				370B4F631D08354D000D12FF /* Assets.xcassets in Resources */,
 				370B4F611D08354D000D12FF /* Main.storyboard in Resources */,
@@ -392,6 +396,7 @@
 				370B4F6C1D08354D000D12FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
