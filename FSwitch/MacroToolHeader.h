@@ -1,9 +1,9 @@
 //
 //  MacroToolHeader.h
-//  HLMagic
+//  FSwitch
 //
-//  Created by chen ying on 13-10-6.
-//  Copyright (c) 2013年 chen ying. All rights reserved.
+//  Created by fengzifeng on 16/6/8.
+//  Copyright © 2016年 fengzifeng. All rights reserved.
 //
 
 
